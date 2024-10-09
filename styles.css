@@ -1,0 +1,31 @@
+body
+{
+    background-color: black;
+    color: white;
+}
+
+#left-bar
+{
+    width: 250px;
+}
+
+#right-bar
+{
+    width: 100px;
+}
+
+#image-place
+{
+    width: 80%;
+}
+
+#text-bar
+{
+    width: 80%;
+}
+
+.border-test
+{
+    border: 1px;
+    border-color: white;
+}
