@@ -5,6 +5,17 @@ body
     font-family: Garamond, serif;
 }
 
+#left-bar, #right-bar, #image-place, #image-place2, #text-bar
+{
+    position: absolute;
+    text-align: center;
+
+    /* border test */
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
 #left-bar
 {
     width: 382px;
@@ -17,7 +28,7 @@ body
 {
     width: 112px;
     top: 10px;
-    right: 10px;
+    left: 1796px;
     height: 905px;
 }
 
@@ -32,7 +43,7 @@ body
 #image-place2
 {
     top: 10px;
-    right: 134px;
+    left: 1425px;
     width: 359px;
     height: 572px;
 }
@@ -41,12 +52,35 @@ body
 {
     height: 321px;
     left: 404px;
-    right: 134px;
+    width: 1379px;
     top: 594px;
 }
 
-#left-bar, #right-bar, #image-place, #image-place2, #text-bar
+
+
+#left-button1, #left-button2, #left-button3, #left-button4
 {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+    padding-top: 0px;
+    position: absolute;
+
+    /* border test */
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+#right-button1, #right-button2, #right-button3, #right-button4
+{
+    width: 50px;
+    height: 50px;
+    right: 25px;
+    text-align: center;
+    padding: 5px;
+    padding-top: 0px;
     position: absolute;
 
     /* border test */
@@ -58,7 +92,6 @@ body
 #left-button1
 {
     left: 50px;
-    top: 50px;
 }
 
 #left-button2
@@ -78,41 +111,20 @@ body
 
 #right-button1
 {
-    right: 25px;
     top: 50px;
 }
 
 #right-button2
 {
-    right: 25px;
     top: 125px;
 }
 
 #right-button3
 {
-    right: 25px;
     top: 275px;
 }
 
 #right-button4
 {
-    right: 25px;
     top: 798px;
 }
-
-#left-button1, #left-button2, #left-button3, #left-button4,
-#right-button1, #right-button2, #right-button3, #right-button4
-{
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    padding: 5px;
-    padding-top: 0px;
-    position: absolute;
-
-    /* border test */
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
-}
-
